@@ -1,12 +1,13 @@
 {
   "required": true,
+  "package": "com.pienapin.skinswapper.mixin",
+  "compatibilityLevel": "JAVA_17",
   "minVersion": "0.8",
-  "package": "net.cobrasrock.skinswapper.mixin",
-  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
   "client": [
     "MixinMultiplayerMenu",
     "MixinPlayerSkinProvider",
-
     "preview.AbstractClientPlayerEntityMixin",
     "preview.ClientWorldMixin",
     "preview.LivingEntityRendererMixin",
